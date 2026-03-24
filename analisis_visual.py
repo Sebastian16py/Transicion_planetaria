@@ -25,7 +25,11 @@ plt.figure(figsize=(8,5))
 
 plt.scatter(df_rocosos['pl_rade'], df_rocosos['pl_bmasse'], label='Rocosos (ρ > 1)', alpha=0.7)
 plt.scatter(df_transitorios['pl_rade'], df_transitorios['pl_bmasse'], label ='Transicion (0.5 < ρ ≤ 1)')
+<<<<<<< HEAD
 plt.scatter(df_gaseosos['pl_rade'], df_gaseosos['pl_bmasse'], label='Gaseosos (ρ ≤0.5)', alpha=0.7)
+=======
+plt.scatter(df_gaseosos['pl_rade'], df_gaseosos['pl_bmasse'], label='Gaseosos (ρ ≤ 0.5)', alpha=0.7)
+>>>>>>> 5f53be4 (correccion)
 
 plt.xlabel('Radio [Radios terrestres]')
 plt.ylabel('Masa[Masas terrestres]')
